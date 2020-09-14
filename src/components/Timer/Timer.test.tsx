@@ -11,3 +11,4 @@ describe("Timer", () => {
     expect(container.find("div").length).toBeGreaterThanOrEqual(1)
   })
 }) 
+
