@@ -1,13 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(214, 25, 205);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 :root {
-  --main-font: “Roboto”, sans-serif;
-  --timer-background-color: #ffffff;
   --timer-border: 1px solid #000000;
   --timer-height: 70%;
   --timer-width: 70%;
+
   --button-border: 3px solid #000000;
-  --button-text-size: 2em;
+  --button-text-size: 3em;
 }
-  
+
 body,
 div,
 p {
@@ -17,8 +31,8 @@ p {
 
 @media screen and (max-width: 1024px) {
   :root {
-    --timer-height: 100%;
-    --timer-width: 100%;
-    --button-text-size: 4em;
+    --timer-height: 80%;
+    --timer-width: 80%;
   }
 }
+

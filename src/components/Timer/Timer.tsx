@@ -65,7 +65,7 @@ function convertTo2Dec (time:string): string{
     return (
         <div className="timer-container">
         <div className="time-display">
-          {minutes}:{seconds}
+        <p>{minutes}:{seconds}</p>
         </div>
         <div className="timer-button-container">
           <TimerButton buttonAction={startTimer} buttonValue={'Start'} />
